@@ -11,7 +11,7 @@ public class AdminClient implements Watcher{
 		this.hostPort = hostPort;
 	}
 	public void process(WatchedEvent arg0) {
-		
+		System.out.println("argo");
 	}
 
 }
